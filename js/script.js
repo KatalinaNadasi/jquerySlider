@@ -16,10 +16,10 @@ $(document).ready(function(){
   //previous handler
   $('#prev').click(previousSlide);
 
-  // set autoswitch slider
-  if(autoswitch == true){
-    setInterval(nextSlide, autoswitchSpeed);
-  }
+  // set autoswitch
+  // if(autoswitch == true){
+  //   setInterval(nextSlide, autoswitchSpeed);
+  // }
 
   // switch to the next slide
   function nextSlide(){

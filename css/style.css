@@ -22,14 +22,14 @@ h1 {
 }
 
 .container {
-  width: 980px;
+  width: 550px;
   margin: 40px auto;
   overflow: hidden;
 }
 
 #slider {
-  width: 940px;
-  height: 350px;
+  height: 500px;
+  width: 550px;
   position: relative;
   overflow: hidden;
   float: left;
@@ -52,14 +52,16 @@ h1 {
 }
 
 .slider img {
-  height: 350px;
-  width: 950px;
+  /*height: 350px;
+  width: 950px;*/
+  height: 500px;
+  width: 550px;
 }
 
 #prev, #next {
   float: left;
   cursor: pointer;
-  margin-top: 160px;
+  margin-top: 217px;
   position: relative;
   z-index: 100;
 }
@@ -69,5 +71,5 @@ h1 {
 }
 
 #next {
-  margin-left: -19px;
+  margin-left: -29px;
 }
