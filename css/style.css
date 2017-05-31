@@ -21,6 +21,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+.clearfix {
+  clear: both;
+}
+
 .container {
   width: 550px;
   margin: 40px auto;
@@ -72,4 +76,64 @@ h1 {
 
 #next {
   margin-left: -29px;
+}
+
+/*video search section*/
+#video-search {
+  background: #7f7f7f;
+  color: black;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+#video-search h1 {
+  font-size: 1.5rem;
+}
+
+#video-search span {
+  color: red;
+  font-size: 2rem;
+}
+
+#query {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.fieldcontainer {
+  display: block;
+  width: 90%;
+  position: relative;
+}
+
+#search-btn {
+  position: absolute;
+  right: 274px;
+  top: 4px;
+  padding-top: 3px;
+  padding-bottom: 8px
+  width: 22px;
+  cursor: pointer;
+  height: 29px;
+  width: 33px;
+  zoom: 1;
+  opacity: 0.65;
+  border: 0;
+  background: transparent url(../img/search.png) top left no-repeat;
+}
+
+#search-btn:hover{
+  opacity: 0.9;
+}
+
+.search-field {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width: 45%;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
 }

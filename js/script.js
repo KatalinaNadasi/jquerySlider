@@ -47,3 +47,33 @@ $(document).ready(function(){
   }
 
 });
+
+//Focus event
+$(function(){
+  var searchBar = $('#query');
+  var icon = $('#search-btn');
+
+  $(searchBar).focus(function(){
+    $(this).animate({
+      width: '100%'
+    }, 400);
+    $(icon).animate({
+      right: '5px'
+    }, 400);
+  });
+
+//Blur event
+$(searchBar).blur(function(){
+  if(searchBar.val() == ''){
+    $(searchBar).animate({
+      width: '45%'
+    }, 400);
+    $(icon).animate({
+      right: '274px'
+    }, 400, function(){});
+  }
+
+});
+
+
+})

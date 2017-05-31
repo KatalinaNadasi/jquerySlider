@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jquery Slider</title>
+  <title>Jquery Slider and search engine</title>
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.css"> -->
 
 </head>
 <body>
@@ -53,6 +54,29 @@
       </div>
 
       <i class="fa fa-2x fa-chevron-right" id="next" aria-hidden="true"></i>
+  </header>
+  <section id="video-search">
+    <div class="container">
+      <h1>Search<span>Vidz</span></h1>
+      <p>Search all Youtube videos</p>
+
+      <form id="search-form" name="search-form" onsubmit="return search()">
+        <div class="fieldcontainer">
+          <input type="search" id="query" class="search-field" placeholder="Votre recherche">
+          <span>
+            <input type="submit" name="search-btn" id="search-btn" value="">
+          </span>
+        </div>
+      </form>
+      <ul id="results"></ul>
+      <div id="buttons"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2017, All Rights Reserved</p>
+    </div>
+  </footer>
 
   </div>
 
