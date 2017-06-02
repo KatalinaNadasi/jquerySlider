@@ -165,17 +165,17 @@ h1 {
   box-sizing: border-box;
 }
 
-button {
+.paging-button {
   background: white;
   border: none;
   padding: 8px 15px;
   border-radius: 2px;
-  margin-top: 15px;
+  margin: 15px;
+  cursor: pointer;
 }
 
-button:hover {
+.paging-button:hover {
   background: #ccc;
-  font-size: 0.5rem;
 }
 
 footer {
